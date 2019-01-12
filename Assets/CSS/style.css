@@ -1,0 +1,23 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+.codes-pen{
+  display:grid;
+  height:100vh;
+  grid-auto-rows: auto 1fr 1fr aout;
+}
+
+.codes-pen>*{
+  border:1px solid black;
+}
+header{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.inputs{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+}
